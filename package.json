@@ -4,6 +4,10 @@
   "description": "Pal theme for vscode",
   "publisher": "pal-theme",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MohamedElashri/pal-theme"
+  },
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -13,7 +17,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Pal",
+        "label": "dark-pal",
         "uiTheme": "vs-dark",
         "path": "./themes/pal-color-theme.json"
       }
