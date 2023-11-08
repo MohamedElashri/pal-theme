@@ -18,7 +18,10 @@ Before you begin, ensure you have the following installed:
 
 ## Installation
 
-Since this theme is not published on the Visual Studio Code Extension Marketplace, you will need to install it manually. Here are the steps to do so:
+Since this theme is not published on the Visual Studio Code Extension Marketplace, you will need to install it manually. You can either install it using the vsix file or build it from source. The vsix sources are being built and released automatically to this repository using GitHub Actions. Check the releases section for the latest version.
+
+If you want to build the extension from source, you will need to clone this repository and package it yourself.
+Here are the steps to do so:
 
 1. Clone the repository to your local machine using Git:
 
