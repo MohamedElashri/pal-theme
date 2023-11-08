@@ -1,4 +1,3 @@
-```
 # Palestinian Flag Dark Inspired Theme for Visual Studio Code
 
 This extension provides a dark theme for Visual Studio Code that is inspired by the colors of the Palestinian flag. It has been carefully crafted to provide a visually comfortable coding experience, particularly suitable for long sessions in low-light environments.
