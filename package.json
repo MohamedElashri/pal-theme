@@ -1,0 +1,22 @@
+{
+  "name": "pal-theme",
+  "displayName": "pal-theme",
+  "description": "Pal theme for vscode",
+  "publisher": "pal-theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pal-color-theme.json"
+      }
+    ]
+  }
+}

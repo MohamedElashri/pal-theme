@@ -1,0 +1,145 @@
+{
+  "name": "Palestinian Flag Dark Inspired",
+  "type": "dark",
+  "colors": {
+    "focusBorder": "#FF0000",
+    "foreground": "#FFFFFF",
+    "descriptionForeground": "#CCCCCC",
+    "errorForeground": "#FF3333",
+    "selection.background": "#FF000060",
+    "textSeparator.foreground": "#FFFFFF60",
+    "textLink.foreground": "#88CC88",
+    "textLink.activeForeground": "#80FF80",
+    "button.background": "#006600",
+    "button.foreground": "#FFFFFF",
+    "button.hoverBackground": "#007700",
+    "dropdown.background": "#333333",
+    "dropdown.listBackground": "#252526",
+    "input.background": "#1F1F1F",
+    "input.border": "#3C3C3C",
+    "input.foreground": "#CCCCCC",
+    "input.placeholderForeground": "#AAAAAA",
+    "badge.background": "#FF0000",
+    "badge.foreground": "#FFFFFF",
+    "progressBar.background": "#FF0000",
+    "titleBar.activeBackground": "#1E1E1E",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.inactiveBackground": "#2D2D2D",
+    "titleBar.inactiveForeground": "#FFFFFF99",
+    "activityBar.background": "#2D2D2D",
+    "activityBar.dropBorder": "#FFFFFF1A",
+    "activityBar.foreground": "#FFFFFF",
+    "activityBar.inactiveForeground": "#FFFFFF99",
+    "activityBarBadge.background": "#FF0000",
+    "activityBarBadge.foreground": "#FFFFFF",
+    "sideBar.background": "#252526",
+    "sideBar.foreground": "#CCCCCC",
+    "sideBar.border": "#3C3C3C",
+    "sideBarTitle.foreground": "#BBBBBB",
+    "sideBarSectionHeader.background": "#333333",
+    "sideBarSectionHeader.foreground": "#FFFFFF",
+    "list.hoverForeground": "#FFFFFF",
+    "list.inactiveSelectionForeground": "#FFFFFF",
+    "list.activeSelectionForeground": "#FFFFFF",
+    "list.hoverBackground": "#3C3C3C1A",
+    "list.inactiveSelectionBackground": "#3C3C3C33",
+    "list.activeSelectionBackground": "#3C3C3C4D",
+    "list.inactiveFocusBackground": "#3C3C3C1A",
+    "list.focusBackground": "#3C3C3C4D",
+    "editorGroupHeader.tabsBackground": "#1F1F1F",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.inactiveForeground": "#CCCCCC",
+    "tab.inactiveBackground": "#2D2D2D",
+    "tab.activeBackground": "#252526",
+    "tab.hoverBackground": "#3C3C3C4D",
+    "tab.unfocusedHoverBackground": "#3C3C3C33",
+    "editor.background": "#1F1F1F",
+    "editor.foreground": "#CCCCCC",
+    "editorLineNumber.foreground": "#858585",
+    "editorLineNumber.activeForeground": "#C6C6C6",
+    "editorIndentGuide.background1": "#3C3C3C33",
+    "editorIndentGuide.activeBackground1": "#3C3C3C99",
+    "editor.selectionBackground": "#88000040",
+    "editor.selectionHighlightBackground": "#3C3C3C20",
+    "editor.inactiveSelectionBackground": "#88000020",
+    "editor.wordHighlightBackground": "#3C3C3C20",
+    "editor.wordHighlightStrongBackground": "#3C3C3C40",
+    "editor.findMatchBackground": "#88000066",
+    "editor.findMatchHighlightBackground": "#88000044",
+    "editor.findRangeHighlightBackground": "#3C3C3C",
+    "editor.hoverHighlightBackground": "#3C3C3C20",
+    "editor.lineHighlightBackground": "#3C3C3C0A",
+    "editor.lineHighlightBorder": "#3C3C3C20",
+    "editorLink.activeForeground": "#88CC88",
+    "editor.rangeHighlightBackground": "#3C3C3C1A",
+    "editorWhitespace.foreground": "#3C3C3C20",
+    "editorBracketMatch.background": "#3C3C3C10",
+    "editorBracketMatch.border": "#3C3C3C60",
+    "editorGutter.background": "#1F1F1F",
+    "editorError.foreground": "#FF3333",
+    "editorWarning.foreground": "#FFAA00",
+    "editorGutter.modifiedBackground": "#FFAA00",
+    "editorGutter.addedBackground": "#00BB00",
+    "editorGutter.deletedBackground": "#FF3333"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "string.comment"
+      ],
+      "settings": {
+        "foreground": "#676767"
+      }
+    },
+    {
+      "scope": "constant",
+      "settings": {
+        "foreground": "#D19A66"
+      }
+    },
+    {
+      "scope": "entity.name",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#61AFEF"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#C678DD"
+      }
+    },
+    {
+      "scope": "storage",
+      "settings": {
+        "foreground": "#C678DD"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "scope": "support",
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    }
+  ]
+}
