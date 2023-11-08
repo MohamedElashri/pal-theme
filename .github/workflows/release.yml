@@ -1,0 +1,35 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*' # This will trigger the action when you push a new tag following the pattern v* (e.g., v1.0.0)
+  ## manual release
+  workflow_dispatch:    
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v3
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '14' # node version
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Package Extension
+      run: npx vsce package
+
+    - name: Create Release
+      if: startsWith(github.ref, 'refs/tags/v')
+      uses: softprops/action-gh-release@v1
+      with:
+        files: '*.vsix'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
